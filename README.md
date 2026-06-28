@@ -1,12 +1,12 @@
 # 🛡️ Sovereign AI Security
 
-> *AI-driven security tooling built on NVIDIA Morpheus, Triton Inference Server, and custom Python pipelines - designed for high-performance, local threat detection without cloud exposure.*
+> *AI-driven security tooling built on NVIDIA Morpheus, Triton Inference Server, and custom Python pipelines designed for high-performance, local threat detection without cloud exposure.*
 
 ---
 
 ## 🎯 Overview
 
-This repository implements an AI-augmented security layer for the sovereign lab. It leverages GPU-accelerated inference to perform real-time secret scanning, anomaly detection, and threat analysis entirely on local hardware - no external API calls, no data leakage.
+This repository implements an AI-augmented security layer for the sovereign lab. It leverages GPU-accelerated inference to perform real-time secret scanning, anomaly detection, and threat analysis entirely on local hardware no external API calls, no data leakage.
 
 ---
 
@@ -16,7 +16,7 @@ This repository implements an AI-augmented security layer for the sovereign lab.
 Professional-grade secret and PII detection using a BERT tokenizer backed by NVIDIA Triton Inference Server. Scans codebases, configuration files, and logs for exposed credentials, API keys, and sensitive data patterns.
 
 ### ⚡ Lightweight Scanner (`scan_secrets_ia.py`)
-Simplified bridge script for rapid scanning in resource-constrained environments - same detection logic, minimal dependencies.
+Simplified bridge script for rapid scanning in resource-constrained environments same detection logic, minimal dependencies.
 
 ---
 
